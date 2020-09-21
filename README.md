@@ -7,7 +7,7 @@ cd /your_blog_dir/
 # install dependencies
 npm i -S hexo-generator-search hexo-generator-feed hexo-renderer-less hexo-autoprefixer hexo-generator-json-content
 # download source
-git clone 
+git clone git@github.com:AaronWan/blog-aaron.git
 ```
 
 ## Configuration

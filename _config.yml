@@ -1,0 +1,65 @@
+# Search
+search: 
+  enable: true
+  service: hexo # google/hexo/algolia/azure/baidu
+  # google 
+  google_api_key:
+  google_engine_id:
+  # algolia
+  algolia_app_id:
+  algolia_api_key:
+  algolia_index_name:
+  # azure
+  azure_service_name:
+  azure_index_name:
+  azure_query_key:
+  # baidu
+  baidu_api_id:
+
+# friends link
+links:
+  - name: fxiaoke
+    url: https://www.fxiaoke.com/
+
+# navigation menu
+menu:
+  - name: 主页
+    slug: home
+    url: /
+  - name: 分类查看
+    slug: archives
+    url: /archives
+  - name: 关于我
+    slug: about
+    url: /about
+
+# widgets
+widgets:
+  - about
+  - tagcloud
+  - links
+  - categories
+
+
+# Less
+less:
+  compress: true
+
+# use url, not username
+social:
+- slug: github
+  url: https://github.com/AaronWan
+- slug: rss
+	url: /atom.xml
+
+# 评论系统 | Comments
+## 做了域名限制，请改成自己的 KEY
+## 若关闭valine 设置enable为false∂
+valine:
+  enable: true
+  appId: b13h0PpoiVVieODkmdrjUw2R-gzGzoHsz
+  appKey: NMiO8n8rxtwYIaUdndXwbcKH
+
+# visitors count
+counter:
+  enable: true

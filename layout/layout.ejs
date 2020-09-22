@@ -6,12 +6,12 @@
     <script>setLoadingBarProgress(40);</script>
   <div class="l_body">
     <div class='container clearfix'>
-      <div class='l_main'>
-        <%- body %>
-      </div>
       <aside class='l_side'>
         <%- partial('_partial/side') %>
       </aside>
+      <div class='l_main'>
+        <%- body %>
+      </div>
       <script>setLoadingBarProgress(60);</script>
     </div>
   </div>

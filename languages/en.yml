@@ -1,0 +1,34 @@
+# en: English
+title:
+  home: Home
+
+# Header nav
+nav:
+  search: Search
+
+# Header menu
+menu:
+  home: Home
+  all: All Artical
+  about: About
+
+widget:
+  tag_cloud:
+    header: Tags
+  links:
+    header: Links
+  categories:
+    header: Categories
+
+# Local search
+local_search:
+  input_placeholder: Search for Posts
+  hits_empty: We didn't find any results for the search, please try other keywords
+
+# Footer
+footer:
+  copyright: Copyright
+  author: Author
+  theme: Theme
+  site_uv: Unique Visitors
+  site_pv: Page Views

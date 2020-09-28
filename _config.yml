@@ -37,9 +37,9 @@ menu:
 # widgets
 widgets:
   - about
-  - tagcloud
   - links
   - categories
+  - tagcloud
 
 
 # Less

@@ -6,7 +6,7 @@ var customSearch;
 	const scrollCorrection = 70; // (header height = 50px) + (gap = 20px)
 	function scrolltoElement(elem, correction) {
 		correction = correction || scrollCorrection;
-		const $elem = elem.href ? $(elem.getAttribute('href')) : $(elem);
+		const $elem = elem.href ? $(decodeURI(elem.getAttribute('href'))) : $(elem);
 		$('html, body').animate({ 'scrollTop': $elem.offset().top - correction }, 400);
 	};
 
